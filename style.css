@@ -97,7 +97,116 @@ a {
     gap: 24px;
 }
 
+/* Above css deals mainly with container 1 */
 
+.plant-image {
+    width: 100px;
+    height: 100px;
+}
 
+.container-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    padding: 50px 200px;
+}
+
+.information-header {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.information-content {
+    display: flex;
+    gap: 24px;
+}
+
+.info-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+/* above is the subsection information of container-2 */
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding: 50px 200px;
+    gap: 8px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote-author {
+    align-self: flex-end;
+    font-weight: 500;
+}
+
+/* above css used to manipulate the quote subsection of container-2 */
+
+.sign-up {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 50px;
+    background-color: #3882F6;
+    border-radius: 6px;
+    margin: 50px 200px;
+}
+
+.sign-up-header {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.sign-up-description {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.sign-up button {
+    padding: 4px 24px;
+    border-radius: 4px;
+    font-size: 16px;
+    border-color:#3882F6;
+}
+
+.sign-up button:hover {
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border-color: #F9FAF8;
+}
+
+/* above css code manipulates the sign-up subsection of container-2 */
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding: 25px 0px;
+}
 
 
